@@ -1,5 +1,6 @@
 # Binary File Structure
-In case you want to generate your own additional test cases , understanding the binary layout of data and query files could be helpful. Both files consist of 32bit integers stored in little endian format.
+In case you want to generate your own additional test cases , understanding the binary layout of data and query files could be helpful.
+Both files consist of 32 bit integers stored in little endian format.
 
 ## The data file
 - The first integer $N$ is the number of blocks (horizontal partitions)
